@@ -1,0 +1,3 @@
+C:\Apps\GIT\WebApi.Swagger.QuickStart\WebApi.Swagger.QuickStart\bin\Debug\netcoreapp2.0\WebApi.Swagger.QuickStart.dll
+C:\Apps\GIT\WebApi.Swagger.QuickStart\WebApi.Swagger.QuickStart\bin\Debug\netcoreapp2.0\WebApi.Swagger.QuickStart.Model.dll
+C:\Apps\GIT\WebApi.Swagger.QuickStart\WebApi.Swagger.QuickStart\bin\Debug\netcoreapp2.0\WebApi.Swagger.QuickStart.Services.dll
