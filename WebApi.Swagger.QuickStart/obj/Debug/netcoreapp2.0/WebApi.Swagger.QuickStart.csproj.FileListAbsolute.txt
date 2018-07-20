@@ -1,3 +1,16 @@
 C:\Apps\GIT\WebApi.Swagger.QuickStart\WebApi.Swagger.QuickStart\bin\Debug\netcoreapp2.0\WebApi.Swagger.QuickStart.dll
 C:\Apps\GIT\WebApi.Swagger.QuickStart\WebApi.Swagger.QuickStart\bin\Debug\netcoreapp2.0\WebApi.Swagger.QuickStart.Model.dll
 C:\Apps\GIT\WebApi.Swagger.QuickStart\WebApi.Swagger.QuickStart\bin\Debug\netcoreapp2.0\WebApi.Swagger.QuickStart.Services.dll
+C:\Apps\GIT\WebApi.Swagger.QuickStart\WebApi.Swagger.QuickStart\bin\Debug\netcoreapp2.0\WebApi.Swagger.QuickStart.xml
+C:\Apps\GIT\WebApi.Swagger.QuickStart\WebApi.Swagger.QuickStart\bin\Debug\netcoreapp2.0\WebApi.Swagger.QuickStart.deps.json
+C:\Apps\GIT\WebApi.Swagger.QuickStart\WebApi.Swagger.QuickStart\bin\Debug\netcoreapp2.0\WebApi.Swagger.QuickStart.runtimeconfig.json
+C:\Apps\GIT\WebApi.Swagger.QuickStart\WebApi.Swagger.QuickStart\bin\Debug\netcoreapp2.0\WebApi.Swagger.QuickStart.runtimeconfig.dev.json
+C:\Apps\GIT\WebApi.Swagger.QuickStart\WebApi.Swagger.QuickStart\bin\Debug\netcoreapp2.0\WebApi.Swagger.QuickStart.pdb
+C:\Apps\GIT\WebApi.Swagger.QuickStart\WebApi.Swagger.QuickStart\bin\Debug\netcoreapp2.0\WebApi.Swagger.QuickStart.Model.pdb
+C:\Apps\GIT\WebApi.Swagger.QuickStart\WebApi.Swagger.QuickStart\bin\Debug\netcoreapp2.0\WebApi.Swagger.QuickStart.Services.pdb
+C:\Apps\GIT\WebApi.Swagger.QuickStart\WebApi.Swagger.QuickStart\obj\Debug\netcoreapp2.0\WebApi.Swagger.QuickStart.csprojResolveAssemblyReference.cache
+C:\Apps\GIT\WebApi.Swagger.QuickStart\WebApi.Swagger.QuickStart\obj\Debug\netcoreapp2.0\WebApi.Swagger.QuickStart.csproj.CoreCompileInputs.cache
+C:\Apps\GIT\WebApi.Swagger.QuickStart\WebApi.Swagger.QuickStart\obj\Debug\netcoreapp2.0\WebApi.Swagger.QuickStart.AssemblyInfoInputs.cache
+C:\Apps\GIT\WebApi.Swagger.QuickStart\WebApi.Swagger.QuickStart\obj\Debug\netcoreapp2.0\WebApi.Swagger.QuickStart.AssemblyInfo.cs
+C:\Apps\GIT\WebApi.Swagger.QuickStart\WebApi.Swagger.QuickStart\obj\Debug\netcoreapp2.0\WebApi.Swagger.QuickStart.dll
+C:\Apps\GIT\WebApi.Swagger.QuickStart\WebApi.Swagger.QuickStart\obj\Debug\netcoreapp2.0\WebApi.Swagger.QuickStart.pdb
