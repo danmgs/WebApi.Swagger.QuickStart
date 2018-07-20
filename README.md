@@ -18,7 +18,7 @@ Use Postman client to test available web api endpoints:
 Go to binaries directory, open windows cmd console and type :
 
 ```
-dotnet WebApi.Swagger.QuickStart
+dotnet WebApi.Swagger.QuickStart.dll
 ```
 
 Then access webapi endpoints with urls : 
