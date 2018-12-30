@@ -12,6 +12,9 @@ Use Postman client to test available web api endpoints:
 | :----------: | ----------------------------- | ---------------------------------------------------------------- | -----------------------------
 | GET          | /api/orders/                  | get all orders                                                   | /api/orders/
 | GET          | /api/orders/id                | search an order given an id                                      | /api/orders/1
+| POST         | /api/orders                   | add a new order to storage                                       | /api/orders with order parameters
+| PUT          | /api/orders                   | modify an existing order in storage                              | /api/orders with order parameters
+| DELETE       | /api/orders/id                | delete an existing order with given id                           | /api/order/1
 
 ## How to run the web api :
 
