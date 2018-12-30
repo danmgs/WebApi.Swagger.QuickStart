@@ -9,5 +9,8 @@ namespace WebApi.Swagger.QuickStart.Services.Interfaces
     {
         IEnumerable<Order> Get();
         Order Get(int id);
+        bool Add(Order order);
+        bool Modify(Order order);
+        bool Delete(int id);
     }
 }

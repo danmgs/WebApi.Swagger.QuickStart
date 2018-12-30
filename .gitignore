@@ -261,3 +261,6 @@ __pycache__/
 *.pyc
 WebApi.Swagger.QuickStart/obj/Debug/netcoreapp2.0/WebApi.Swagger.QuickStart.csproj.FileListAbsolute.txt
 .vs/WebApi.Swagger.QuickStart/v15/Server/sqlite3/storage.ide
+*.ide
+*.ide
+WebApi.Swagger.QuickStart/obj/Debug/netcoreapp2.0/WebApi.Swagger.QuickStart.csproj.FileListAbsolute.txt
