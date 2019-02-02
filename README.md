@@ -34,8 +34,24 @@ http://localhost:5000/api/orders/1
 
 ![alt capture1](https://github.com/danmgs/WebApi.Swagger.QuickStart/blob/master/img/api_endpoints.PNG)
 
-### Useful Links
+## Docker Image
 
-#### Swagger
+A Docker image of this project is available on Docker hub [here](https://hub.docker.com/r/danmgs/webapiswagger).
+
+Pull and run image by specifying a port mapping (4001 as an example).
+```
+docker pull danmgs/webapiswagger
+docker run -p 4001:80 danmgs/webapiswagger
+```
+
+And access to the swagger API GUI with url :
+
+```
+http://localhost:4001/swagger/index.html
+```
+
+## Useful Links
+
+### Swagger
 
 https://docs.microsoft.com/fr-fr/aspnet/core/tutorials/getting-started-with-swashbuckle?view=aspnetcore-2.1&tabs=visual-studio%2Cvisual-studio-xml

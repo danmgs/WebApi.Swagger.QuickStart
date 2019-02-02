@@ -9,12 +9,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebApi.Swagger.QuickStart.S
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebApi.Swagger.QuickStart.Model", "WebApi.Swagger.QuickStart.Model\WebApi.Swagger.QuickStart.Model.csproj", "{D5594BFE-2C68-4A4D-873F-61C84C33F4EA}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solutions Items", "Solutions Items", "{5474CF86-1EEF-4F52-B34A-D08AD6367738}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebApi.Swagger.QuickStart.DAL", "WebApi.Swagger.QuickStart.DAL\WebApi.Swagger.QuickStart.DAL.csproj", "{C9A54425-D8AC-496A-838C-A61B8D93DB0E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{F9E8BD4F-F4A7-4877-A42A-DECFD9D28C50}"
 	ProjectSection(SolutionItems) = preProject
+		Dockerfile = Dockerfile
 		README.md = README.md
 	EndProjectSection
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApi.Swagger.QuickStart.DAL", "WebApi.Swagger.QuickStart.DAL\WebApi.Swagger.QuickStart.DAL.csproj", "{C9A54425-D8AC-496A-838C-A61B8D93DB0E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
