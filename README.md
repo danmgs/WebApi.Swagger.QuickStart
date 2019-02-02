@@ -36,19 +36,18 @@ http://localhost:5000/api/orders/1
 
 ## Docker Image
 
-A Docker image of this project is available on Docker hub [here](https://hub.docker.com/r/danmgs/webapiswagger).
+A Docker image of this project is available on Docker hub [here](https://hub.docker.com/r/danmgs/webapiswaggerquickstart).
 
-Pull and run image by specifying a port mapping (4001 as an example).
+Pull and run image by specifying a port mapping (8080 to reach 80 for example).
 ```
-docker pull danmgs/webapiswagger
-docker run -p 4001:80 danmgs/webapiswagger
+docker pull danmgs/webapiswaggerquickstart
+docker run -p 8080:80 danmgs/webapiswaggerquickstart
 ```
 
 And access to the swagger API GUI with url :
 
-```
-http://localhost:4001/swagger/index.html
-```
+http://localhost:8080/swagger/index.html
+
 
 ## Useful Links
 
