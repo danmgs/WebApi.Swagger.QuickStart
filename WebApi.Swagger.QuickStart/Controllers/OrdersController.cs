@@ -1,8 +1,5 @@
-﻿using System;
+﻿using Microsoft.AspNetCore.Mvc;
 using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using Microsoft.AspNetCore.Mvc;
 using WebApi.Swagger.QuickStart.Model;
 using WebApi.Swagger.QuickStart.Services.Interfaces;
 
@@ -53,23 +50,25 @@ namespace WebApi.Swagger.QuickStart.Controllers
             return _orderService.Get(id);
         }
 
-
         // POST api/orders
         [HttpPost]
-        public void Post([FromBody]string value)
+        public bool Post([FromBody]Order order)
         {
+            return _orderService.Add(order);
         }
 
         // PUT api/orders/1
-        [HttpPut("{id}")]
-        public void Put(int id, [FromBody]string value)
+        [HttpPut]
+        public bool Put([FromBody]Order order)
         {
+            return _orderService.Modify(order);
         }
 
         // DELETE api/orders/1
         [HttpDelete("{id}")]
-        public void Delete(int id)
+        public bool Delete(int id)
         {
+            return _orderService.Delete(id);
         }
     }
 }

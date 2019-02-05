@@ -5,6 +5,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\WebApi.Swagger.QuickStart.DAL\WebApi.Swagger.QuickStart.DAL.csproj" />
     <ProjectReference Include="..\WebApi.Swagger.QuickStart.Model\WebApi.Swagger.QuickStart.Model.csproj" />
   </ItemGroup>
 
