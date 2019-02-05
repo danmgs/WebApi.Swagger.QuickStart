@@ -1,4 +1,4 @@
-# WEB API SWAGGER QUICKSTART (2018)
+# WEB API SWAGGER QUICKSTART [![Build Status](https://travis-ci.org/danmgs/WebApi.Swagger.QuickStart.svg?branch=master)](https://travis-ci.org/danmgs/WebApi.Swagger.QuickStart)
 
 A RESTFUL .NET Core application that exposes web api endpoints by leveraging Swagger.
 
