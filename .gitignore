@@ -256,15 +256,8 @@ paket-files/
 # CodeRush
 .cr/
 
-# Python Tools for Visual Studio (PTVS)
-__pycache__/
-*.pyc
-WebApi.Swagger.QuickStart/obj/Debug/netcoreapp2.0/WebApi.Swagger.QuickStart.csproj.FileListAbsolute.txt
-.vs/WebApi.Swagger.QuickStart/v15/Server/sqlite3/storage.ide
-*.ide
-*.ide
-WebApi.Swagger.QuickStart/obj/Debug/netcoreapp2.0/WebApi.Swagger.QuickStart.csproj.FileListAbsolute.txt
-WebApi.Swagger.QuickStart/obj/Debug/netcoreapp2.0/WebApi.Swagger.QuickStart.csproj.FileListAbsolute.txt
-WebApi.Swagger.QuickStart/obj/Debug/netcoreapp2.0/WebApi.Swagger.QuickStart.csproj.FileListAbsolute.txt
-.vs/WebApi.Swagger.QuickStart/v15/Server/sqlite3/storage.ide
-.vs/config/applicationhost.config
+/obj
+/bin
+*.lock.json
+*.assets.json
+
