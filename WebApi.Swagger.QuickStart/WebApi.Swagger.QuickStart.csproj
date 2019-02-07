@@ -1,7 +1,7 @@
 <Project Sdk="Microsoft.NET.Sdk.Web">
 
   <PropertyGroup>
-    <TargetFramework>netcoreapp2.1</TargetFramework>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
     <DockerDefaultTargetOS>Windows</DockerDefaultTargetOS>
   </PropertyGroup>
 
@@ -33,6 +33,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\WebApi.Swagger.QuickStart.DAL\WebApi.Swagger.QuickStart.DAL.csproj" />
     <ProjectReference Include="..\WebApi.Swagger.QuickStart.Model\WebApi.Swagger.QuickStart.Model.csproj" />
     <ProjectReference Include="..\WebApi.Swagger.QuickStart.Services\WebApi.Swagger.QuickStart.Services.csproj" />
   </ItemGroup>
