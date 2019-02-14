@@ -50,23 +50,14 @@ http://localhost:8080/swagger/index.html
 
 ## Kubernetes with minikube
 
-Start minikube then apply k8s configuration, from solution root path :
+-> Start minikube then apply k8s configuration, from solution root path :
 
 ```
 kubectl apply -f .\k8s
 ```
 This will create k8s namespace/deployments/services for our docker image to run under Kubernetes.
 
--> Browse with url :
-
-```
-< minikube ip >:31516\swagger
-```
-where 31516 is the specified service nodePort and < minikube ip > is determined by typing command:
-
-```
-minikube ip
-```
+The image used in configuration is **danmgs/webapiswaggerquickstart:linux-x64**.
 
 -> Check deployments of k8s config under WEB dashboard by typing command :
 
@@ -74,16 +65,30 @@ minikube ip
 minikube dashboard
 ```
 
--> Also, you can check status of deployments/pod/service by typing command
+-> Also, you can check status of deployments/pod/services which was created under namespace by typing command
 ```
 kubectl get all --namespace=swaggerapp
 ```
 
 ![alt k8s_dashboard_overview](https://github.com/danmgs/WebApi.Swagger.QuickStart/blob/master/img/k8s_dashboard_overview.PNG)
 
+-> Browse with url to access the webapi :
+
+```
+http:\\< minikube ip >:31516\swagger
+```
+where
+* **31516** is the specified service nodePort 
+* **< minikube ip >** is determined by typing command:
+
+```
+minikube ip
+```
+
+
 #### Customized configuration
 
-In the file swagger-api-deployment.yaml, you can overrides default port (80) exposed by the running container. Configure env variables like so :
+In the file **swagger-api-deployment.yaml**, you can overrides default port (80) exposed by the running container. Configure env variables like so :
 ```
     spec:
       containers:
@@ -93,7 +98,7 @@ In the file swagger-api-deployment.yaml, you can overrides default port (80) exp
           - name: ASPNETCORE_URLS        
             value: http://+:8080   
 ```
-Under minikube dashboard, in the pod log, you will then see the port listening.
+Under the minikube dashboard, in the pod log, you will then see the port listening:
 
 ![alt k8s_dashboard_pod_logs](https://github.com/danmgs/WebApi.Swagger.QuickStart/blob/master/img/k8s_dashboard_pod_logs.PNG)
 
