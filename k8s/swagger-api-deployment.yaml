@@ -1,0 +1,23 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: swagger-api-deployment
+  namespace: swaggerapp
+  labels: {
+    "type" : "server",
+    "env" : "multi"
+  }    
+spec:
+  selector:
+    matchLabels:
+      component: swagger-api
+  template:
+    metadata:
+      labels:
+        component: swagger-api
+    spec:
+      containers:
+      - name: swagger-api-cont
+        image: danmgs/webapiswaggerquickstart:latest
+        ports:
+        - containerPort: 8080
