@@ -1,4 +1,4 @@
-FROM microsoft/dotnet:sdk AS build-stage
+FROM microsoft/dotnet:2.1-sdk AS build-stage
 WORKDIR /app
 
 # Copy csproj and restore as distinct layers
@@ -13,10 +13,10 @@ COPY . .
 
 FROM build-stage AS publish-stage
 WORKDIR /app
-RUN dotnet publish -c Release -o /app/out
+RUN dotnet publish -c Release -o /app/out -r linux-x64
 
 # Build runtime image
-FROM microsoft/dotnet:aspnetcore-runtime
+FROM microsoft/dotnet:2.1-aspnetcore-runtime
 WORKDIR /app
 COPY --from=publish-stage /app/out .
 ENTRYPOINT ["dotnet", "WebApi.Swagger.QuickStart.dll"]
